@@ -1,0 +1,26 @@
+.more {
+    padding: 51px 0 57px 0;
+    &__wrapper {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 360px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: $main-color;
+        margin-top: 28px;
+        text-align: center;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        margin-top: 10px;
+        text-align: center;
+    }
+}

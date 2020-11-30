@@ -1,0 +1,38 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/slick';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import 'base/mixins';
+@import 'base/variables';
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/titles';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/more';
+
+.divider {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+}
+
+@import 'blocks/agent';
+@import 'blocks/prices';
+@import 'blocks/manager';
+@import 'blocks/work';
+@import 'blocks/reviews';

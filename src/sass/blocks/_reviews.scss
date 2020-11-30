@@ -1,0 +1,59 @@
+.reviews {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+}
+.slider {
+    margin-top: 31px;
+    position: relative;
+    z-index: 1;
+}
+.slide {
+    opacity: 0.3;
+    width: 361px;
+    height: 145px;
+    &__img {
+        min-width: 114px;
+        max-height: 114px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__title {
+        margin-top: 19px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #3a3a3a;
+        text-align: center;
+    }
+    &__descr {
+        width: 659px;
+        font-size: 14.1px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: center;
+        margin: 6px auto 0 auto;
+    }
+}
+.slick-center {
+    opacity: 1;
+    width: 659px;
+    height: auto;
+}
+.slick-prev {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 35px;
+    right: 848px;
+    z-index: 2;
+}
+.slick-next {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 35px;
+    left: 848px;
+}
