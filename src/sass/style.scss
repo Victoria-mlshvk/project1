@@ -7,6 +7,9 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    :focus {
+        outline:none !important;
+    }
 }
 
 @import 'base/mixins';
@@ -30,9 +33,25 @@
     height: 1px;
     background-color: $main-color;
 }
+input {
+    padding: 18px 0 18px 28px;
+    width: 268px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid rgba($color: #898989, $alpha: 0.21);
+    font-size: 13px;
+    line-height: 24px;
+    color: #101010;
+    font-weight: 300;
+}
+
 
 @import 'blocks/agent';
 @import 'blocks/prices';
 @import 'blocks/manager';
 @import 'blocks/work';
 @import 'blocks/reviews';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/media';

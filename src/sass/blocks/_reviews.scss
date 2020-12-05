@@ -9,8 +9,9 @@
 }
 .slide {
     opacity: 0.3;
-    width: 361px;
-    height: 145px;
+    transform: (scale(0.8));
+    // width: 361px;
+    // height: 145px;
     &__img {
         min-width: 114px;
         max-height: 114px;
@@ -40,7 +41,8 @@
 .slick-center {
     opacity: 1;
     width: 659px;
-    height: auto;
+    // height: auto;
+    transform: (scale(1));
 }
 .slick-prev {
     border: none;

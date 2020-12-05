@@ -6,6 +6,7 @@
         display: flex;
         align-items: center;
         &__logo {
+            width: 96px;
             margin-right: 55px;
             img {
                 width: 100%;
@@ -118,7 +119,14 @@
         margin: 35px auto 0 auto;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
+        &__img {
+            width: 67px;
+            height: 63px;
+            img {
+                max-width: 100%;
+            }
+        }
         &__item {
             max-width: 260px;
         }
@@ -135,4 +143,7 @@
             text-align: center;
         }
     }
+}
+.hamburger {
+    display: none;
 }

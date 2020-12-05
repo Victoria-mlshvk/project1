@@ -1,0 +1,43 @@
+.map {
+    height: auto;
+    position: relative;
+    &__info {
+        position: absolute;
+        border-radius: 6px;
+        top: 50%;
+        width: 310px;
+        min-height: 128px;
+        transform: translateY(-50%);
+        left: 833px;
+        background-color: #fff;
+        padding: 25px 41px 25px 25px;
+        z-index: 1;
+        &:before {
+            position: fixed;
+            content: '';
+            display: block;
+            width: 40px;
+            height: 40px;
+            background-color:#fff;
+            top: 56px;
+            left: -20px;
+            transform: rotate(45deg);
+            z-index: 0;
+        }
+    }
+    &__city {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ec644b;
+    }
+    &__address {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        span {
+            text-decoration: underline;
+            color: #ec644b;
+        }
+    }
+}
